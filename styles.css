@@ -44,7 +44,7 @@
  }
 
  .info {
-     padding-bottom: 450px;
+     padding-bottom: 400px;
  }
 
  .visit {
@@ -66,4 +66,8 @@
    padding-bottom: 50px;
   }
   
+}
+
+a {
+ color:black;
 }
