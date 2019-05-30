@@ -1,13 +1,27 @@
 $(document).ready(function() {
-    $(".coding").hover(function(){
-        $(".coding-text").toggle();
+    $(".coding").mouseenter(function() {
+        $(".coding-text").css("display", "block");
     });
-    
-    $(".mbm").hover(function(){
-        $(".mbm-text").toggle();
+
+    $(".coding").mouseleave(function() {
+        $(".coding-text").css("display", "none");
     });
-    
-    $(".experience").hover(function(){
-        $(".experience-text").toggle();
+
+    $(".mbm").mouseenter(function() {
+        $(".mbm-text").css("display", "block");
     });
+
+    $(".mbm").mouseleave(function() {
+        $(".mbm-text").css("display", "none");
+    });
+
+    $(".experience").mouseenter(function() {
+        $(".experience-text").css("display", "block");
+    });
+
+    $(".experience").mouseleave(function() {
+        $(".experience-text").css("display", "none");
+    });
+
+    $('.materialboxed').materialbox();
 });
