@@ -54,3 +54,16 @@
  h5 {
   font-weight: bold;
  }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+  .about {
+   padding-top: 25px;
+   padding-bottom: 0;
+  }
+  
+  .info {
+   padding-bottom: 50px;
+  }
+  
+}
