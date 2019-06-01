@@ -15,12 +15,12 @@ $(document).ready(function() {
         $(".mbm-text").css("display", "none");
     });
 
-    $(".experience").mouseenter(function() {
-        $(".experience-text").css("display", "block");
+    $(".graphic-design").mouseenter(function() {
+        $(".graphic-design-text").css("display", "block");
     });
 
-    $(".experience").mouseleave(function() {
-        $(".experience-text").css("display", "none");
+    $(".graphic-design").mouseleave(function() {
+        $(".graphic-design-text").css("display", "none");
     });
 
     $('.materialboxed').materialbox();
