@@ -75,6 +75,9 @@ blockquote {
  border-left-color: #607d8b;
 }
 
+.blue-grey-text {
+ font-weight: bold;
+}
  @media only screen and (max-width: 600px) {
   .about {
    padding-top: 25px;
@@ -87,8 +90,16 @@ blockquote {
   
   .mbm-img {
    margin-bottom: 0;
+   
   }
 
+ .icon {
+  width:160px;
+ }
+ 
+ h3 {
+  font-size: 24px;
+ }
  }
  
  .divider {
