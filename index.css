@@ -3,6 +3,7 @@
   min-height: 100vh;
   flex-direction: column;
   font-family: 'Noto Sans', sans-serif;
+  background-color: #fafafa;
  }
 
  main {
@@ -28,23 +29,6 @@
   font-size: 20px;
  }
 
- nav.nav-center ul {
-  text-align: center;
- }
-
- nav.nav-center ul li {
-  display: inline;
-  float: none;
- }
-
- nav.nav-center ul li a {
-  display: inline-block;
- }
-
- .email {
-  font-weight: bold;
- }
-
  .subText {
   font-size: 20px;
  }
@@ -58,17 +42,9 @@
   padding-bottom: 100px;
  }
 
- .visit {
-  width: 100%;
- }
-
  h5 {
   font-weight: bold;
   color: #607d8b;
- }
-
- .divider {
-  margin-bottom: 10px;
  }
 
  .icon {
@@ -122,9 +98,9 @@
   .subText {
    font-size: 14px;
   }
+ }
 
-  .buyButton {
-   margin-bottom: 15px;
-  }
+ .divider {
+  margin-bottom: 10px;
  }
  
