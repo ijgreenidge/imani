@@ -2,7 +2,7 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Rambla', sans-serif;
  }
 
  main {
@@ -62,9 +62,8 @@
   width: 100%;
  }
 
- h5 {
-  font-weight: bold;
-  color: #607d8b;
+ .heading {
+  font-family: 'Bevan', cursive;
  }
 
  .divider {
@@ -98,7 +97,7 @@
 
  @media only screen and (max-width: 600px) {
   .about {
-   padding-top: 25px;
+   padding-top: 100px;
    padding-bottom: 0;
   }
 
@@ -111,6 +110,10 @@
 
   }
 
+  .box {
+   border:1px solid black;
+   padding: 50px 50px 50px 50px;
+  }
   .icon {
    width: 160px;
   }

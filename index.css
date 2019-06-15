@@ -2,8 +2,7 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #fafafa;
+  font-family: 'Rambla', sans-serif;
  }
 
  main {
@@ -24,6 +23,11 @@
   font-size: 20px;
  }
 
+ .box {
+  border:1px solid black;
+  padding:150px 80px 150px 80px;
+ }
+ 
  .graphic-design-text {
   display: none;
   font-size: 20px;
@@ -34,17 +38,16 @@
  }
 
  .about {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
  }
 
  .info {
   padding-bottom: 100px;
  }
 
- h5 {
-  font-weight: bold;
-  color: #607d8b;
+ .heading {
+  font-family: 'Bevan', cursive;
  }
 
  .icon {
@@ -56,7 +59,7 @@
  }
 
  blockquote {
-  border-left-color: #607d8b;
+  border-left-color: black;
  }
 
  .blue-grey-text {
@@ -68,10 +71,15 @@
  }
 
  .connect {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
  }
 
+.divider {
+  margin-bottom: 10px;
+ }
+ 
+ 
  @media only screen and (max-width: 600px) {
   .about {
    padding-top: 25px;
@@ -98,9 +106,15 @@
   .subText {
    font-size: 14px;
   }
+  
+  .connect {
+   padding-top: 25px;
+   padding-bottom:25px;
+  }
+  
+  .box {
+   padding:50px 50px 50px 50px;
+  }
  }
 
- .divider {
-  margin-bottom: 10px;
- }
  
