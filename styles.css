@@ -69,6 +69,14 @@
  .divider {
   margin-bottom: 10px;
  }
+ 
+ .women {
+  display: none;
+ }
+ 
+ .menbtn {
+  display: none;
+ }
 
  .icon {
   width: 200px;

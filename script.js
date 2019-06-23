@@ -24,4 +24,21 @@ $(document).ready(function() {
     });
 
     $('.materialboxed').materialbox();
+    
+    $(".womenbtn").click(function() {
+        $(".men").css("display", "none");
+        $(".menbtn").css("display", "inline-block");
+        $(".women").css("display", "block");
+        $(".womenbtn").css("display", "none");
+        
+    });
+    
+     $(".menbtn").click(function() {
+        $(".men").css("display", "block");
+        $(".womenbtn").css("display", "inline-block");
+        $(".men").css("display", "block");
+        $(".menbtn").css("display", "none");
+        
+    });
+    
 });
