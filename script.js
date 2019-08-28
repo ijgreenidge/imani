@@ -30,15 +30,14 @@ $(document).ready(function() {
         $(".menbtn").css("display", "inline-block");
         $(".women").css("display", "block");
         $(".womenbtn").css("display", "none");
-        
+
     });
-    
-     $(".menbtn").click(function() {
+
+    $(".menbtn").click(function() {
         $(".men").css("display", "block");
         $(".womenbtn").css("display", "inline-block");
-        $(".men").css("display", "block");
+        $(".women").css("display", "none");
         $(".menbtn").css("display", "none");
-        
     });
     
 });
