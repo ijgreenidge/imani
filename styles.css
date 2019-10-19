@@ -69,13 +69,10 @@
  .divider {
   margin-bottom: 10px;
  }
- 
- .women {
-  display: none;
- }
- 
- .menbtn {
-  display: none;
+
+ .white {
+  background-color: black;
+  border-color: blue;
  }
 
  .icon {
@@ -90,10 +87,6 @@
   border-left-color: #607d8b;
  }
 
- .blue-grey-text {
-  font-weight: bold;
- }
-
  .github {
   margin-top: 20px;
  }
@@ -104,6 +97,10 @@
  }
 
  @media only screen and (max-width: 600px) {
+  
+  nav {
+   width:100%;
+  } 
   .about {
    padding-top: 100px;
    padding-bottom: 0;
@@ -119,9 +116,10 @@
   }
 
   .box {
-   border:2px solid black;
+   border: 2px solid black;
    padding: 50px 50px 50px 50px;
   }
+  
   .icon {
    width: 160px;
   }

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $(".coding").mouseenter(function() {
         $(".coding-text").css("display", "block");
     });
@@ -23,8 +24,7 @@ $(document).ready(function() {
         $(".graphic-design-text").css("display", "none");
     });
 
-    $('.materialboxed').materialbox();
-    
+
     $(".womenbtn").click(function() {
         $(".men").css("display", "none");
         $(".menbtn").css("display", "inline-block");
@@ -39,5 +39,11 @@ $(document).ready(function() {
         $(".women").css("display", "none");
         $(".menbtn").css("display", "none");
     });
-    
+});
+
+$(document).ready(function() {
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+    });
+
 });
