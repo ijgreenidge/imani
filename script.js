@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+
 $(document).ready(function() {
 
     $(".coding").mouseenter(function() {
