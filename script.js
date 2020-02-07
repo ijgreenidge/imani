@@ -29,20 +29,20 @@ $(document).ready(function() {
     });
 
 
-    $(".womenbtn").click(function() {
-        $(".men").css("display", "none");
-        $(".menbtn").css("display", "inline-block");
-        $(".women").css("display", "block");
-        $(".womenbtn").css("display", "none");
+    // $(".womenbtn").click(function() {
+    //     $("#men").css("display", "none");
+    //     $(".menbtn").css("display", "inline-block");
+    //     $("#women").css("display", "block");
+    //     $(".womenbtn").css("display", "none");
 
-    });
+    // });
 
-    $(".menbtn").click(function() {
-        $(".men").css("display", "block");
-        $(".womenbtn").css("display", "inline-block");
-        $(".women").css("display", "none");
-        $(".menbtn").css("display", "none");
-    });
+    // $(".menbtn").click(function() {
+    //     $("#men").css("display", "block");
+    //     $(".womenbtn").css("display", "inline-block");
+    //     $("#women").css("display", "none");
+    //     $(".menbtn").css("display", "none");
+    // });
 });
 
 $(document).ready(function() {
