@@ -101,6 +101,10 @@
   border:5px solid black;
  }
  
+ .tiktok-embed {
+  border-left-color:#252525;
+ }
+ 
  @media only screen and (max-width: 600px) {
   .about {
    padding-top: 25px;
