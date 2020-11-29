@@ -52,3 +52,51 @@ $(document).ready(function() {
 
 });
 
+
+$(document).ready(function(){
+    $('#seeMoreLogos').click(function(){
+        $(".logos").css("display", "block");
+        $("#seeLessLogos").css("display", "block");
+        $("#seeMoreLogos").css("display", "none");
+
+    });
+
+    $('#seeLessLogos').click(function(){
+        $(".logos").css("display", "none");
+        $("#seeMoreLogos").css("display", "block");
+        $("#seeLessLogos").css("display", "none");
+    });
+  });
+
+$(document).ready(function(){
+    $('#seeMoreCartoons').click(function(){
+        $(".cartoons").css("display", "block");
+        $("#seeLessCartoons").css("display", "block");
+        $("#seeMoreCartoons").css("display", "none");
+
+    });
+
+    $('#seeLessCartoons').click(function(){
+        $(".cartoons").css("display", "none");
+        $("#seeMoreCartoons").css("display", "block");
+        $("#seeLessCartoons").css("display", "none");
+    });
+  });
+
+$(document).ready(function(){
+    $('#seeMoreCoverArt').click(function(){
+        $(".cover-art").css("display", "block");
+        $("#seeLessCoverArt").css("display", "block");
+        $("#seeMoreCoverArt").css("display", "none");
+
+    });
+
+    $('#seeLessCoverArt').click(function(){
+        $(".cover-art").css("display", "none");
+        $("#seeMoreCoverArt").css("display", "block");
+        $("#seeLessCoverArt").css("display", "none");
+    });
+  });
+
+
+

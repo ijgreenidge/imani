@@ -100,7 +100,41 @@
   margin-bottom: 15px;
  }
  
+
+ .headingDesign {
+    font-family: 'Francois One', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+
+ }
+
+ .logos {
+  display:none;
+ }
+
+ .cartoons {
+  display:none;
+ }
+
+ .cover-art {
+  display: none;
+ }
  
+#seeLessLogos {
+  display:none;
+ }
+
+#seeLessCartoons {
+  display: none;
+}
+
+#seeLessCoverArt {
+  display: none;
+}
+.showcase {
+  padding:30px;
+}
+
  @media only screen and (max-width: 600px) {
   
   nav {
@@ -139,6 +173,11 @@
 
   .buyButton {
    margin-bottom: 15px;
+  }
+
+  .showcase {
+    text-align: center;
+    padding:15px;
   }
  }
  
