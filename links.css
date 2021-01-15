@@ -1,0 +1,25 @@
+body {
+  color:#ebebeb;
+}
+
+a {
+  color:#ebebeb;
+}
+.links-img {
+   border-radius: 50%;
+   margin-top:15px;
+   border: 3px solid white;
+}
+
+.link {
+  width:90%;
+  vertical-align: baseline;
+  border-radius: 30px;
+  border:1px solid white;
+  /*background-color: white;*/
+  /*padding:30px;*/
+}
+
+.link:hover {
+  background-color:#7851a9;
+}
