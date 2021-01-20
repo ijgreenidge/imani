@@ -1,4 +1,5 @@
 body {
+  background-color: #141414;
   color:#ebebeb;
 }
 
@@ -18,12 +19,11 @@ a {
 }
 
 .link {
-  width:90%;
-  vertical-align: baseline;
-  border-radius: 30px;
+  width:80%;
+  height:60%;
+  border-radius: 25px;
   border:1px solid white;
-  /*background-color: white;*/
-  /*padding:30px;*/
+  padding:2px;
 }
 
 .link:hover {
